@@ -10,6 +10,15 @@ touch test_file.txt
 
 and validate that there is indeed a new file with the name `test_file.txt`. You can also just check out your desktop in the graphical interface and indeed see the new file there: a proof that the terminal and the graphical interface are just two different ways to do essentially the same.
 
+## Showing file contents
+A lot of files are just text, formatted in some weird way. As the terminal is completely text-based, it would be weird if you had to open an external program to view the text in them. `cat` solves this problem. It "concatenates a file to standard output", which is nerd-speak for "it outputs the content of a file to the terminal". If our test_file.txt would have had content
+
+```
+cat test_file.txt
+```
+
+would show its content in the terminal.
+
 ## Making folders
 Making a folder is very similar to making files. The only difference is that the command is now not `touch`, but `mkdir` (an abbrevation of `make directory`).
 
@@ -79,4 +88,5 @@ rm test_file.txt
 4. Remove the file without the `.txt` extension and rename the other file to `testfile.txt`.
 5. Add the following text to the content of the file: "Hi, this is my first file edited through the terminal".
 6. Use `nano` to create a file with the content "And this is my second file!".
-7. Go back to the `bash_course` folder and copy the `lesson4` folder to create a `lesson5` folder. Does this work?
+7. Output the content of the file you just created in the terminal.
+8. Go back to the `bash_course` folder and copy the `lesson4` folder to create a `lesson5` folder. Does this work?
