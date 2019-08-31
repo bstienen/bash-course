@@ -39,8 +39,8 @@ cd ../Documents
 
 Using relative paths you want move from anywhere in the system to any other location in the system, as long as you know which folders you pass on your way.
 
-## Auto complete and <TAB>
-Using a terminal requires quite some typing, as you might have already noticed if you were typing along. This typing can however be alleviated by the auto complete function of the terminal. By pressing the `<TAB>` button the terminal tries to automatically complete the command or location you were typing. If you have typed `cd Docume` and then press `<TAB>`, the command will (most likely) be completed to `cd Documents`. If however you typed `cd D` the terminal will not be able to complete your command: it does not know if you meant `Documents` or `Downloads` (or alternatively any other file or folder starting with a 'D'). Double pressing `<TAB>` shows you all options to complete the command.
+## Auto complete and TAB
+Using a terminal requires quite some typing, as you might have already noticed if you were typing along. This typing can however be alleviated by the auto complete function of the terminal. By pressing the `TAB` button the terminal tries to automatically complete the command or location you were typing. If you have typed `cd Docume` and then press `TAB`, the command will (most likely) be completed to `cd Documents`. If however you typed `cd D` the terminal will not be able to complete your command: it does not know if you meant `Documents` or `Downloads` (or alternatively any other file or folder starting with a 'D'). Double pressing `TAB` shows you all options to complete the command.
 
 ## Absolute paths
 Using only relative paths can become confusion rather fast. In order to use them correctly you need to know at every moment *where* you are in the system. It would be nice if we were able to have an absolute reference, a foundation from where we can reference to any file or location in the system.
