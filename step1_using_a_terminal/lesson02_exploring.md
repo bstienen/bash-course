@@ -83,5 +83,5 @@ pwd
   - The `tmp` folder in the root directory
   - The `src` folder in the `usr` folder in the root directory
   - Your Desktop
-  - The `var` folder in the root directory
+  - The `var` folder in the root directory (use a single command)
 2. What is the absolute path to your desktop?
