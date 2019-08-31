@@ -1,5 +1,5 @@
 # Lesson 06: Getting help
-*In this lesson you will learn where to find information about commands and their arguments*
+*In this lesson you will learn where to find information about commands and their options*
 
 ## Command types
 Commands come in different shapes and sizes, but also in different types. Which type of command is in general not incredibly important: the only thing that matters is that is does what it is supposed to do. When you want to know more about the command, the type of the command suddenly becomes important however.
@@ -24,7 +24,7 @@ If you encounter a shell builtin that you want to know more about, you need to u
 help cd
 ```
 
-The text that is shown outlines what the command does, how to use it and which options (or arguments as we called them earlier).
+The text that is shown outlines what the command does, how to use it and which options.
 
 ## Getting help on executable programs
 For executable programs such help pages do not exist, but most of these programs *do* have manual pages. You can open these with the `man` command, followed by the command you want the manual of.
@@ -33,7 +33,7 @@ For executable programs such help pages do not exist, but most of these programs
 man ls
 ```
 
-Many programs also implement access to their manual through the `-h` and/or `--help` arguments. How to access the manual for a specific command is however command specific, so it might take some trial and error.
+Many programs also implement access to their manual through the `-h` and/or `--help` options. How to access the manual for a specific command is however command specific, so it might take some trial and error.
 
 ### Searching for executable programs
 Imagine the following situation: you know you want to see a list of all processes on your computer (similar to the task manager on Windows), but are so charmed by idea of a terminal that you want to know if such a functionality is available in the terminal. To perform a search for commands, the `apropos` command can be used, followed by a keyword on which you want to base your search. The following search
