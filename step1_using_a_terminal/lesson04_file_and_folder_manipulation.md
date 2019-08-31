@@ -40,7 +40,7 @@ There is actually no rename operation in the terminal! In Linux moving a file an
 mv test_file.txt test_file_new_name.txt
 ```
 
-All these commands also hold for folders. Just as you can move files, you can also move folders. And just as you can rename files, you can also rename folders.
+All these commands above hold also for folders. Just as you can move files, you can also move folders. And just as you can rename files, you can also rename folders.
 
 ## Copying a file
 The `mv` command removes the file from its original location and adds it to the destination location. When you don't want that and instead want to leave the original file there, but just want to *copy* the file, you can use the `copy` (`cp`) command.
