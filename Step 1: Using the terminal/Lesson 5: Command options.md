@@ -1,4 +1,4 @@
-# Lesson 05: Command options
+# Lesson 5: Command options
 *In this lesson you will learn how commands can be configured to make them more versatile*
 
 ## Changing the behaviour of commands

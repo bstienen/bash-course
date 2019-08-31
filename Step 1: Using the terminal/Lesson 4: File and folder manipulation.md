@@ -1,4 +1,4 @@
-# Lesson 04: File and folder manipulation
+# Lesson 4: File and folder manipulation
 *In this lesson you will learn how to create, move and delete files and folders*
 
 ## Making files

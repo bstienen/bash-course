@@ -1,4 +1,4 @@
-# Lesson 02: Exploring
+# Lesson 2: Exploring
 *In this lesson you will learn how to navigate through folders and what the difference is between absolute and relative paths*
 
 ## So.. where are you?
