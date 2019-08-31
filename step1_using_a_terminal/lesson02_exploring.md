@@ -67,12 +67,21 @@ cd /home/username
 
 where you replace `username` with your own username of course.
 
-Let us go back to the root directory for a moment. If we list the content of this directory we see a whole list of directories with names you might have never heard of. In normal daily use you will probably never encounter these folders, but for completeness we will have a look at them in the next lesson.
+## The current working directory
+I know nobody who always types complete absolute paths when navigating the file system. It is just unnecessary: relative paths is just too useful and simple to ignore. However: when programming or when referring to a specific file absolute paths are relevant, as you never know from which folder you start navigating.
+
+To get the absolute path to the directory you are currently in, you can use the `print working directory` (`pwd`) command.
+
+```
+pwd
+```
 
 ---
 ## Exercises
 1. Try to use **relative** paths to go to the following paths:
-  - `/home/username/Pictures`
-  - `/tmp`
-  - `/home/username/Desktop`
-  - `/var`
+  - The `Pictures` folder in your home directory
+  - The `tmp` folder in the root directory
+  - The `src` folder in the `usr` folder in the root directory
+  - Your Desktop
+  - The `var` folder in the root directory
+2. What is the absolute path to your desktop?
