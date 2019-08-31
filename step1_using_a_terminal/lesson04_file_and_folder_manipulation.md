@@ -1,0 +1,81 @@
+# Lesson 04: File and folder manipulation
+*In this lesson you will learn how to create, move and delete files and folders*
+
+## Making files
+Now that we know how to navigate the file system, let us try to alter it. The easiest way to do this is by making a file. Later in this lesson we will concern ourselves with the contents of the files, for now we will only have a look at the *creation* of the file. With the `touch` command you can create an empty file. Open the Desktop folder in the terminal and check its contents. Run the following command
+
+```
+touch test_file.txt
+```
+
+and validate that there is indeed a new file with the name `test_file.txt`. You can also just check out your desktop in the graphical interface and indeed see the new file there: a proof that the terminal and the graphical interface are just two different ways to do essentially the same.
+
+## Making folders
+Making a folder is very similar to making files. The only difference is that the command is now not `touch`, but `mkdir` (an abbrevation of `make directory`).
+
+```
+mkdir test_folder
+```
+
+## Moving and renaming files and folders
+Now imagine you created the file in the previous exercise and think: "This is gonna clutter my desktop massively". A solution is to store temporary files like these not on your desktop, but in the `/tmp` folder. This folder is automatically cleared at system reboot, so you don't need to remember to delete it. On the other hand: every user has access to the files in this folder, so if you use a shared computer, that is something to consider.
+
+To move the file to the different folder, you can use the `move` (`mv`) command. This command takes two arguments: the file you want to move and the location you want to move it to. For both these paths you can choose to use either absolute or relative paths. We could for example use as commmand:
+
+```
+mv test_file.txt /tmp/test_file.txt
+```
+
+If you now check your desktop, the test file should indeed be gone. Move to the `/tmp` folder and validate that your file can now indeed be found here.
+
+Note that in the command we specify the name of the file in the `/tmp` folder. When we moved the file, we could just as well have changed the name of the file at the same time. For example:
+
+```
+mv test_file.txt /tmp/test_file_new_name.txt
+```
+
+There is actually no rename operation in the terminal! In Linux moving a file and renaming a file is actually the same operation. To rename a file, you just move it to the same folder, with a different name.
+
+```
+mv test_file.txt test_file_new_name.txt
+```
+
+All these commands also hold for folders. Just as you can move files, you can also move folders. And just as you can rename files, you can also rename folders.
+
+## Copying a file
+The `mv` command removes the file from its original location and adds it to the destination location. When you don't want that and instead want to leave the original file there, but just want to *copy* the file, you can use the `copy` (`cp`) command.
+
+```
+cp test_file.txt test_file_2.txt
+```
+
+## Editing a file
+In contrast to the other operations in this chapter, there is no default `edit` command. Yes, there are "append to this file" commands, but when you actually want to edit a file like it is a text document, you need more complication applications than just a single terminal command: there is no command saying "why my thesis" or "fix this grammar error in the second paragraph".
+
+There is a wide variety of file editors available. If you are familiar with one of them, please use the one of your choice. Here we will only introduce `nano`, because it has -- in contrast to many other editors -- its commands printed on screen.
+
+If you want to edit an existing file, you can use
+
+```
+nano test_file.txt
+```
+
+Use the arrow keys to navigate through the file. Typing works as normal. To save, cut lines, paste lines etc., you can use the commands at the bottom of the screen (The `^` indicates `CTRL`). In other words: to save the file, press `CTRL + O` and hit enter.
+
+If you just ran the `nano` commmand without a file name an empty file will be opened which you can name when you save it. If the file did not exist, the file will be created, removing the need to run the `touch` command.
+
+## Removing a file
+If you would only create and move files, your folder would quickly fill up with all kinds of random files. Because of this it is nice to know that you can also *remove* files **gasp**! To remove a file, run the following command
+
+```
+rm test_file.txt
+```
+
+## Exercises
+1. Create a folder with the name `bashcourse` and rename it to `bash_course`.
+2. In this newly created folder, create a folder with the name `lesson4` and enter this folder.
+3. Create a file with the command `touch test file.txt`. Look at the contents of your file. Can you explain what happens? Can you maybe even solve the problem?
+4. Remove the file without the `.txt` extension and rename the other file to `testfile.txt`.
+5. Add the following text to the content of the file: "Hi, this is my first file edited through the terminal".
+6. Use `nano` to create a file with the content "And this is my second file!".
+7. Go back to the `bash_course` folder and copy the `lesson4` folder to create a `lesson5` folder. Does this work?
