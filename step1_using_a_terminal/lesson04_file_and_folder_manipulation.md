@@ -71,6 +71,7 @@ If you would only create and move files, your folder would quickly fill up with 
 rm test_file.txt
 ```
 
+---
 ## Exercises
 1. Create a folder with the name `bashcourse` and rename it to `bash_course`.
 2. In this newly created folder, create a folder with the name `lesson4` and enter this folder.

@@ -49,5 +49,6 @@ Before we start: you probably don't have the right permissions to write to or al
 ## Hidden files
 A last point that I want to make about the Linux file system before we continue to learn more terminal commands is that not all files are visible by default. Files and folders with a name starting with a dot (e.g. `.hiddenfile`) are so-called *hidden files*. These are mostly used to store configurations or to store files needed for bookkeeping.
 
+---
 ## Exercises
 1. In a couple of lessons we will see how we can make hidden files visible in the terminal. For now you can just start a file explorer window. Navigate to your home directory. If you press `CTRL+H` the hidden files are shown alongside the not-hidden files (you can press this key combination again to hide them again). Can you identify the source of some of the hidden files?
