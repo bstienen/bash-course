@@ -10,8 +10,8 @@ Terminals don't have this problem. All possible options are right there at your 
 ## The content of this course
 In this course you will get to know the basics of one of the most prominent terminal languages: bash. After this course you will be able to do everything with the terminal you are able to do with the GUI of Windows and Ubuntu and more.
 
-The course is split into three steps. In step 1 we will familiarise ourselves with the terminal and with the way Ubuntu is built up. We will also see how to perform basic file manipulations, like creation, moving and deletion of files.
+The course is split into several lessons. In lesson 1 we will familiarise ourselves with the terminal and with the way Ubuntu is built up. We will also see how to perform basic file manipulations, like creation, moving and deletion of files.
 
-In step 2 we will dive deeper in the file system and gain more control over our files. Subjects we will see here are how to archive files, how to search for files and how to restrict the permissions people have over your files.
+In lesson 2 we will dive deeper in the file system and gain more control over our files. Subjects we will see here are how to archive files, how to search for files and how to restrict the permissions people have over your files.
 
-After finishing step 2 you will be properly introduced to the terminal and can start using it in your daily life. As a physicist an understanding of a bit more unusual commands can however come in handy. In step 3 we will therefore have a look at how we can connect to other computers and tranfer files between them. We will also have a look at how we can manage processes on our machine and how we can actually run programs without the need for ugly IDEs.
+After finishing lesson 2 you will be properly introduced to the terminal and can start using it in your daily life. As a physicist an understanding of a bit more unusual commands can however come in handy. In lessons 3 and further we will therefore have a look at how we can connect to other computers and transfer files between them. We will also have a look at how we can manage processes on our machine and how we can actually run programs without the need for ugly IDEs.
